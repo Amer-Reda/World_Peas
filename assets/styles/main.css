@@ -37,6 +37,12 @@ nav div ul li {
 nav div ul li a {
     text-decoration: none;
     color: #000;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav div ul li a:hover{
+    background-color: var(--DarkMossGreen);
+    
 }
 
 .Basket {
@@ -45,6 +51,7 @@ nav div ul li a {
     border-radius: 8px;
     color: #fff;
 }
+
 .head{
     width: 100%;
     height: 100vh;
@@ -68,8 +75,12 @@ nav div ul li a {
     color: #fff;
     border-radius: 8px;
     border: none;
+    transition: transform 0.6s;
 }
 
+.head input:hover{
+    transform: scale(1.1);
+}
 .img{
     display: flex;
 
@@ -91,3 +102,22 @@ nav div ul li a {
     margin-left: 60px;
     max-width: 630px;
 }
+.img div p span{
+    font-weight: 600;
+}
+.pragraph{
+    display: flex;
+    margin: 100px 0px 10px 0px;
+    font-size: 22px;
+    line-height: 32px;
+}
+.pragraph p{
+    width: 700px;
+}
+.pragraph h3{
+    margin: 0 50px 0 100px;
+    font-size: 14px;
+}
+
+
+
