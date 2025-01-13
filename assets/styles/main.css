@@ -119,5 +119,21 @@ nav div ul li a:hover{
     font-size: 14px;
 }
 
+.basket{
+    padding: 60px 90px;
+}
+.basket h2{
+    font-size: 64px;
+}
+.basket span{
+    font-size: 20px;
+    font-weight: 200;
+}
+hr{
+    margin-top: 20px;
+    border: 0;
+    height: 0.8px;
+    background-color: #E6E6E6;
+}
 
 
